@@ -5,6 +5,7 @@
 }
 
 header {
+  
   background-color: white;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -53,4 +54,94 @@ header {
 
 .subscribe-link::after {
   content: "";
+}
+
+main{
+    padding-left: 200px ;
+    
+}
+
+.css-11cwn6f{
+    margin-bottom: 8px;
+}
+
+.quote {
+    position: relative;
+}
+
+span {
+    line-height: 1.125rem;
+    display: block;
+    position: relative;
+    left: 0;
+}
+
+.main-article{
+    display: block;
+    
+    padding: 200px;
+   
+    
+   
+    
+}
+
+.author{    
+    background: seashell;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+}
+
+
+.section-container{
+    margin-top: 60px;
+}
+.left-section{
+    float: left;
+}
+
+li{
+    display: inline;
+}
+
+.social > li {
+    margin-right: 10px;
+}
+
+.social-icon{
+    width: 15px;
+    height: 15px;
+}
+
+.right-section {
+    padding-right: 8px;
+    float: right;
+}
+
+.main-text-container{
+    padding: 100px;
+    margin-top: 20px;
+}
+
+.main-text{
+    margin-top: 20px;
+    display: block;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+}
+
+.caption-text{
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(102, 102, 102);
+}
+
+.images{
+    margin-top: 30px;
+}
+
+.pict-img{
+    width: 60%;
 }
