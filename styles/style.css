@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-list-container{
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 200px;
+    background: fuchsia;
+}
+
+.parentList-header > .left-header .center-header .right-header{
+    list-style: none;
+    
+    display: inline;
+}
+
+.left-header{
+    float: left;
+    width: 20%;
+    background: green;
+}
+
+.center-header{
+    width: 60% ;
+    background: hotpink;
+}
+
+.right-header{
+    
+    float: right;
+    width: 40%;
+    background: indigo;
+}
+.list-left-header,
+.list-center-header,
+.list-right-header > .a-subscribe .btn-login {
+    list-style: none;
+}
