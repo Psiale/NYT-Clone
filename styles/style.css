@@ -5,7 +5,6 @@
 }
 
 header {
-  
   background-color: white;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -56,92 +55,142 @@ header {
   content: "";
 }
 
-main{
-    padding-left: 200px ;
-    
+main {
+  padding-left: 200px;
 }
 
-.css-11cwn6f{
-    margin-bottom: 8px;
+.css-11cwn6f {
+  margin-bottom: 8px;
 }
 
 .quote {
-    position: relative;
+  position: relative;
 }
 
 span {
-    line-height: 1.125rem;
-    display: block;
-    position: relative;
-    left: 0;
+  line-height: 1.125rem;
+  display: block;
+  position: relative;
+  left: 0;
 }
 
-.main-article{
-    display: block;
-    
-    padding: 200px;
-   
-    
-   
-    
+.main-article {
+  display: block;
+
+  padding: 200px;
 }
 
-.author{    
-    background: seashell;
-    font-size: 0.9375rem;
-    line-height: 1.25rem;
+.author {
+  background: seashell;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
 }
 
-
-.section-container{
-    margin-top: 60px;
+.section-container {
+  margin-top: 60px;
 }
-.left-section{
-    float: left;
+.left-section {
+  float: left;
 }
 
-li{
-    display: inline;
+li {
+  display: inline;
 }
 
 .social > li {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
-.social-icon{
-    width: 15px;
-    height: 15px;
+.social-icon {
+  width: 15px;
+  height: 15px;
 }
 
 .right-section {
-    padding-right: 8px;
-    float: right;
+  padding-right: 8px;
+  float: right;
 }
 
-.main-text-container{
-    padding: 100px;
-    margin-top: 20px;
+.main-text-container {
+  padding: 100px;
+  margin-top: 20px;
 }
 
-.main-text{
-    margin-top: 20px;
-    display: block;
-    font-size: 1.25rem;
-    line-height: 1.875rem;
+.main-text {
+  margin-top: 20px;
+  display: block;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
 }
 
-.caption-text{
-    font-size: 0.875rem;
-    line-height: 1.125rem;
-    font-weight: 400;
-    font-style: normal;
-    color: rgb(102, 102, 102);
+.caption-text {
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(102, 102, 102);
 }
 
-.images{
-    margin-top: 30px;
+.images {
+  margin-top: 30px;
 }
 
-.pict-img{
-    width: 60%;
+.pict-img {
+  width: 60%;
+}
+
+.aside-scene > ul > li {
+  float: left;
+  width: 25%;
+  padding: 5px;
+  font-family: nyt-franklin, arial, helvetica, sans-serif;
+  font-size: 11px;
+  line-height: 17px;
+  font-weight: 300;
+  color: #000000;
+}
+
+.scene-1 {
+  width: 100%;
+  height: 190px;
+  background-size: cover;
+  position: relative;
+  background: url(../img/inflation.png) 0px 0px;
+  background-size: 1050px 800px;
+}
+
+.scene-2 {
+  width: 100%;
+  height: 190px;
+  background-size: cover;
+  position: relative;
+  background: url(../img/inflation.png) -244px 0px;
+  background-size: 1050px 800px;
+}
+
+.scene-3 {
+  width: 100%;
+  height: 190px;
+  background-size: cover;
+  position: relative;
+  background: url(../img/inflation.png) -504px 0px;
+  background-size: 1050px 800px;
+}
+
+.scene-4 {
+  width: 100%;
+  height: 190px;
+  background-size: cover;
+  position: relative;
+  background: url(../img/inflation.png) -777px 0px;
+  background-size: 1050px 800px;
+}
+
+.scene-5 {
+  width: 100%;
+  height: 190px;
+  background-size: cover;
+  position: relative;
+  background: url(../img/inflation.png) 0px -1220px;
+  background-size: 1050px 800px;
 }
