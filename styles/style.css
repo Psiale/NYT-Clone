@@ -319,6 +319,51 @@ li {
 }
 
 main {
-  max-width: 1200px;
+  width: 100%;
   margin: auto;
 }
+
+
+.footer-container{
+  width: 100%;
+  background: sienna;
+  
+}
+
+.footer-container > ul >li{
+  float: left;
+  width: 50%;
+}
+
+
+
+
+.footer-left{
+  background: red;
+  height: 100%;
+}
+.footer-left > ul{
+  float: left;
+  width: 33.33%;
+  clear: left;  
+}
+
+.footer-left > ul > li{
+  float: left;
+  width: 33.33%;
+  clear: left;
+}
+
+
+
+.footer-right{
+  background: blue;
+}
+.footer-right > ul{
+  float: right;
+  width: 33.33%;
+  clear: left;
+}
+
+
+
