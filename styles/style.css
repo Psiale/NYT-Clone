@@ -112,7 +112,7 @@ li {
 }
 
 .main-text-container {
-  padding: 100px;
+  
   margin-top: 20px;
 }
 
@@ -193,4 +193,61 @@ li {
   position: relative;
   background: url(../img/inflation.png) 0px -1220px;
   background-size: 1050px 800px;
+}
+
+.scene-6 {
+  width: 100%;
+  height: 190px;
+  background-size: cover;
+  position: relative;
+  background: url(../img/inflation.png) -250px -1200px;
+  background-size: 1050px 800px;
+}
+
+
+.scene-7 {
+  width: 100%;
+  height: 190px;
+  background-size: cover;
+  position: relative;
+  background: url(../img/inflation.png) -515px -1200px;
+  background-size: 1050px 800px;
+}
+
+.scene-8{
+
+  width: 100%;
+  height: 190px;
+  background-size: cover;
+  position: relative;
+  background: url(../img/inflation.png) -785px -1200px;
+  background-size: 1050px 800px;
+}
+
+
+ .main-text-container-1 {
+  width: 100vh;
+  
+  position: relative;
+  left: 0;
+}
+
+.caption-text-final{
+  float: left;
+}
+
+.main-video{
+  width: 100%;
+  height: 100%;
+}
+
+.captions{
+  display: inline-block;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+}
+
+
+.space-image{
+  width: 100%;
 }
