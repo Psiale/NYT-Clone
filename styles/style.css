@@ -59,7 +59,6 @@ main {
   padding-left: 200px;
 }
 
-
 .quote {
   position: relative;
 }
@@ -323,47 +322,74 @@ main {
   margin: auto;
 }
 
-
-.footer-container{
+.footer-container {
   width: 100%;
+  padding: 0rem 4rem;
   background: sienna;
-  
+  clear: both;
 }
 
-.footer-container > ul >li{
+.footer-container > ul > li {
   float: left;
   width: 50%;
 }
 
-
-
-
-.footer-left{
+.footer-left {
   background: red;
   height: 100%;
 }
-.footer-left > ul{
-  float: left;
-  width: 33.33%;
-  clear: left;  
-}
-
-.footer-left > ul > li{
+.footer-left > ul {
   float: left;
   width: 33.33%;
   clear: left;
 }
 
+.footer-left > ul > li {
+  float: left;
+  width: 33.33%;
+  clear: left;
+}
 
-
-.footer-right{
+.footer-right {
   background: blue;
 }
-.footer-right > ul{
+.footer-right > ul {
   float: right;
   width: 33.33%;
   clear: left;
 }
 
+.footer-header-left {
+  float: left;
+}
 
+.footer-header-right {
+  float: right;
+  color: rgb(86, 123, 149);
+  font-family: nyt-franklin;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 11px;
+  text-decoration: none;
+}
 
+footer {
+  padding-top: 5rem;
+}
+
+.footer-lists {
+  margin-top: 3rem;
+  margin-left: 4rem;
+}
+
+.footer-lists::after {
+  clear: both;
+  display: table;
+}
+
+.list-of {
+  float: left;
+  width: 12%;
+  padding-right: 13rem;
+}
