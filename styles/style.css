@@ -78,9 +78,18 @@ span {
 }
 
 .author {
-  background: seashell;
-  font-size: 0.9375rem;
-  line-height: 1.25rem;
+  color: rgb(0, 0, 0);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-decoration: none;
+  font-size: 100%;
+  font-weight: 500;
+  height: 23px;
+  line-height: 21px;
+}
+
+.author-link:hover{
+  text-decoration: underline;
+  color: gray;
 }
 
 .section-container {
@@ -115,6 +124,7 @@ li {
 
 .main-text {
   margin-top: 20px;
+  font-family: nyt-imperial,georgia,'times new roman',times,serif;
   display: block;
   font-size: 1.25rem;
   line-height: 1.875rem;
@@ -473,6 +483,7 @@ footer {
   margin-right: 7px;
   vertical-align: middle;
 }
+
 
 .normal-link-footer {
   color: rgb(0, 0, 0);
