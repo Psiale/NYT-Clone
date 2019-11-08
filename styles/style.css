@@ -41,7 +41,7 @@ header {
   float: left;
 }
 
-.left-icons {
+.left-column > .left-icons {
   width: 37%;
 }
 
@@ -86,6 +86,7 @@ header {
 .right-button-section {
   width: 25%;
 }
+
 .right-subscribe-section {
   width: 60%;
 }
@@ -110,8 +111,8 @@ header {
 .login-link {
   background-image:
   linear-gradient(
-    rgba(14, 1, 1, 0.945),
-    rgba(19, 3, 3, 0.99));
+  rgba(14, 1, 1, 0.945),
+  rgba(19, 3, 3, 0.99));
   padding: 0.7rem 1.2rem;
   color: white;
   text-decoration: none;
@@ -133,17 +134,13 @@ header {
   padding-top: 1rem;
 }
 
-.subscribe-link:hover {
+.subscribe-link > .subscribe-link:hover {
   color: black;
   text-decoration: underline;
 }
 
 .subscribe-link::after {
   content: "";
-}
-
-main {
-  padding-left: 200px;
 }
 
 .quote {
@@ -182,6 +179,7 @@ span {
 .section-container {
   margin-top: 60px;
 }
+
 .left-section {
   float: left;
 }
@@ -422,11 +420,13 @@ ul.scene_main {
 .each-item > h4 span {
   text-align: center;
 }
+
 .each-item > * {
   margin-top: 20px;
 }
 
 main {
+  padding-left: 200px;
   width: 100%;
   margin: auto;
 }
@@ -445,7 +445,7 @@ main {
 .footer-header-right {
   float: right;
   color: rgb(86, 123, 149);
-  font-family: nyt-franklin;
+  font-family: helvetica, arial, sans-serif;
   font-size: 11px;
   font-style: normal;
   font-weight: 400;
@@ -525,13 +525,11 @@ footer {
 }
 
 .left-border-subscribe {
-  
   padding-left: 15px;
   border-left: 1px solid rgb(226, 226, 226);
 }
 
 .subscribe-link {
-
   color: grey;
   display: inline-block;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -539,7 +537,6 @@ footer {
   margin-top:2px;
   font-size: 11px;
   font-weight: 700;
- 
   line-height: 15px;
   padding-bottom: 0;
   text-decoration: underline;
