@@ -4,8 +4,6 @@
   box-sizing: border-box;
 }
 
-
-
 header {
   background-color: white;
   background-attachment: fixed;
@@ -46,10 +44,9 @@ header {
   padding-top: 1rem;
 }
 
-
 .subscribe-link:hover {
   color: black;
- text-decoration: underline;
+  text-decoration: underline;
 }
 
 .subscribe-link::after {
@@ -80,15 +77,15 @@ span {
 
 .author {
   color: rgb(0, 0, 0);
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: none;
   font-size: 100%;
   font-weight: 500;
   height: 23px;
   line-height: 21px;
 }
 
-.author-link:hover{
+.author-link:hover {
   text-decoration: underline;
   color: gray;
 }
@@ -125,10 +122,14 @@ li {
 
 .main-text {
   margin-top: 20px;
-  font-family: nyt-imperial,georgia,'times new roman',times,serif;
+  font-family: nyt-imperial, georgia, "times new roman", times, serif;
   display: block;
   font-size: 1.25rem;
   line-height: 1.875rem;
+}
+
+.scenes_left_align {
+  margin-left: -20%;
 }
 
 .caption-text {
@@ -158,74 +159,52 @@ li {
   color: #000000;
 }
 
-.scene-1 {
+ul.scene_main {
+  width: 160%;
+}
+
+.scene_all {
   width: 100%;
   height: 190px;
-  background-size: cover;
   position: relative;
+}
+
+.scene-1 {
   background: url(../img/inflation.png) 0px 0px;
-  background-size: 1050px 800px;
+  background-size: 990px 800px;
 }
 
 .scene-2 {
-  width: 100%;
-  height: 190px;
-  background-size: cover;
-  position: relative;
   background: url(../img/inflation.png) -244px 0px;
-  background-size: 1050px 800px;
+  background-size: 990px 800px;
 }
 
 .scene-3 {
-  width: 100%;
-  height: 190px;
-  background-size: cover;
-  position: relative;
   background: url(../img/inflation.png) -504px 0px;
-  background-size: 1050px 800px;
+  background-size: 1001px 800px;
 }
 
 .scene-4 {
-  width: 100%;
-  height: 190px;
-  background-size: cover;
-  position: relative;
   background: url(../img/inflation.png) -777px 0px;
-  background-size: 1050px 800px;
+  background-size: 1015px 800px;
 }
 
 .scene-5 {
-  width: 100%;
-  height: 190px;
-  background-size: cover;
-  position: relative;
   background: url(../img/inflation.png) 0px -1220px;
   background-size: 1050px 800px;
 }
 
 .scene-6 {
-  width: 100%;
-  height: 190px;
-  background-size: cover;
-  position: relative;
   background: url(../img/inflation.png) -250px -1200px;
   background-size: 1050px 800px;
 }
 
 .scene-7 {
-  width: 100%;
-  height: 190px;
-  background-size: cover;
-  position: relative;
   background: url(../img/inflation.png) -515px -1200px;
   background-size: 1050px 800px;
 }
 
 .scene-8 {
-  width: 100%;
-  height: 190px;
-  background-size: cover;
-  position: relative;
   background: url(../img/inflation.png) -785px -1200px;
   background-size: 1050px 800px;
 }
@@ -486,7 +465,6 @@ footer {
   vertical-align: middle;
 }
 
-
 .normal-link-footer {
   color: rgb(0, 0, 0);
   display: inline-block;
@@ -505,44 +483,41 @@ footer {
   border: 1px solid rgb(226, 226, 226);
 }
 
-
-.header-container{
-  box-shadow: rgba(0,0,0,0.08) 0 0 5px 1px;
+.header-container {
+  box-shadow: rgba(0, 0, 0, 0.08) 0 0 5px 1px;
   border-bottom: 1px solid #e2e2e2;
   position: fixed;
   background: white;
   top: 0;
   width: 100%;
-  
 }
 
-.left-column, .right-column {
+.left-column,
+.right-column {
   width: 20%;
- 
 }
 
 .center-column {
- 
   width: 60%;
- 
 }
 
-.left-column , .right-column, .center-column{
+.left-column,
+.right-column,
+.center-column {
   float: left;
 }
 
-
-.left-column > .left-icons, .left-title-section {
+.left-column > .left-icons,
+.left-title-section {
   padding: 10px;
   float: left;
- ;
 }
 
 .left-icons {
   width: 36%;
 }
 
-.left-title-section{
+.left-title-section {
   width: 63%;
 }
 
@@ -552,20 +527,20 @@ footer {
 }
 
 .left-icons > a {
-  margin-left: 10px ;
+  margin-left: 10px;
 }
 
-.center-title-section{
+.center-title-section {
   padding-top: 5px;
   text-align: center;
 }
-.right-column > div{
+.right-column > div {
   float: right;
   padding-top: 10px;
   margin-right: 20px;
 }
 
-.left-title-text{
+.left-title-text {
   font-size: 14.25px;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   font-weight: 700;
@@ -579,26 +554,24 @@ footer {
 }
 
 .right-button-section > button {
- 
   background-color: #2a2a2a;
   border: none;
   color: white;
   padding: 8px 16px;
   text-align: center;
   text-decoration: none;
-  
+
   font-size: 12px;
-  
+
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   cursor: pointer;
-
 }
 
-.right-button-section > button:hover{
+.right-button-section > button:hover {
   background-color: black;
 }
 
-.right-subscribe-section{
+.right-subscribe-section {
   margin-top: 10px;
 }
