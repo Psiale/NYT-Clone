@@ -110,9 +110,10 @@ header {
 
 .login-link {
   background-image:
-  linear-gradient(
-  rgba(14, 1, 1, 0.945),
-  rgba(19, 3, 3, 0.99));
+    linear-gradient(
+      rgba(14, 1, 1, 0.945),
+      rgba(19, 3, 3, 0.99)
+      );
   padding: 0.7rem 1.2rem;
   color: white;
   text-decoration: none;
@@ -139,7 +140,7 @@ header {
   display: inline-block;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-transform: capitalize;
-  margin-top:2px;
+  margin-top: 2px;
   font-size: 11px;
   font-weight: 700;
   line-height: 15px;
@@ -266,7 +267,7 @@ ul.scene_main {
 .scene_all {
   width: 100%;
   height: 190px;
-  position: relative;  
+  position: relative;
 }
 
 .scene-1 {
@@ -497,6 +498,7 @@ footer {
   padding: 20px 10px;
   width: 100%;
 }
+
 .container-more-links > ul {
   list-style: none;
 }
@@ -540,8 +542,6 @@ footer {
   padding-left: 15px;
   border-left: 1px solid rgb(226, 226, 226);
 }
-
-
 
 .subscribe-icon-align {
   display: inline-block;
