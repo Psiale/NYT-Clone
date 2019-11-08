@@ -134,7 +134,20 @@ header {
   padding-top: 1rem;
 }
 
-.subscribe-link > .subscribe-link:hover {
+.subscribe-link {
+  color: grey;
+  display: inline-block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: capitalize;
+  margin-top:2px;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 15px;
+  padding-bottom: 0;
+  text-decoration: underline;
+}
+
+.subscribe-link:hover {
   color: black;
   text-decoration: underline;
 }
@@ -529,18 +542,7 @@ footer {
   border-left: 1px solid rgb(226, 226, 226);
 }
 
-.subscribe-link {
-  color: grey;
-  display: inline-block;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-transform: capitalize;
-  margin-top:2px;
-  font-size: 11px;
-  font-weight: 700;
-  line-height: 15px;
-  padding-bottom: 0;
-  text-decoration: underline;
-}
+
 
 .subscribe-icon-align {
   display: inline-block;
