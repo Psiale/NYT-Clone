@@ -109,11 +109,10 @@ header {
 }
 
 .login-link {
-  background-image:
-    linear-gradient(
-      rgba(14, 1, 1, 0.945),
-      rgba(19, 3, 3, 0.99)
-    );
+  background-image: linear-gradient(
+    rgba(14, 1, 1, 0.945),
+    rgba(19, 3, 3, 0.99)
+  );
   padding: 0.7rem 1.2rem;
   color: white;
   text-decoration: none;
@@ -568,4 +567,3 @@ footer {
   width: 15vw;
   border: 1px solid rgb(226, 226, 226);
 }
-
