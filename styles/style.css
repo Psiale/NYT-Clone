@@ -107,11 +107,6 @@ header {
   background-color: black;
 }
 
-.right-subscribe-section {
- 
-}
-
-
 .login-link {
   background-image:
   linear-gradient(
@@ -475,8 +470,8 @@ footer {
 
 .list-of {
   float: left;
-  width: 12%;
-  padding-right: 13rem;
+  width: 11%;
+  padding-right: 16%;
 }
 
 .footer-more-links {
@@ -530,7 +525,7 @@ footer {
 }
 
 .left-border-subscribe {
-  width: 15rem;
+  
   padding-left: 15px;
   border-left: 1px solid rgb(226, 226, 226);
 }
