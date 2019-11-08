@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+
+
 header {
   background-color: white;
   background-attachment: fixed;
@@ -44,11 +46,10 @@ header {
   padding-top: 1rem;
 }
 
-.subscribe-link,
+
 .subscribe-link:hover {
   color: black;
-  font-weight: 700;
-  font-size: smaller;
+ text-decoration: underline;
 }
 
 .subscribe-link::after {
@@ -463,7 +464,8 @@ footer {
 }
 
 .subscribe-link {
-  color: rgb(0, 0, 0);
+  margin-top: 2px;
+  color: grey;
   display: inline-block;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-transform: capitalize;
@@ -473,7 +475,7 @@ footer {
   height: 25px;
   line-height: 15px;
   padding-bottom: 0px;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .subscribe-icon-align {
@@ -501,4 +503,102 @@ footer {
 .subscribe-horizontal-rule {
   width: 15vw;
   border: 1px solid rgb(226, 226, 226);
+}
+
+
+.header-container{
+  box-shadow: rgba(0,0,0,0.08) 0 0 5px 1px;
+  border-bottom: 1px solid #e2e2e2;
+  position: fixed;
+  background: white;
+  top: 0;
+  width: 100%;
+  
+}
+
+.left-column, .right-column {
+  width: 20%;
+ 
+}
+
+.center-column {
+ 
+  width: 60%;
+ 
+}
+
+.left-column , .right-column, .center-column{
+  float: left;
+}
+
+
+.left-column > .left-icons, .left-title-section {
+  padding: 10px;
+  float: left;
+ ;
+}
+
+.left-icons {
+  width: 36%;
+}
+
+.left-title-section{
+  width: 63%;
+}
+
+.left-icons > img {
+  width: 16px;
+  height: 16px;
+}
+
+.left-icons > a {
+  margin-left: 10px ;
+}
+
+.center-title-section{
+  padding-top: 5px;
+  text-align: center;
+}
+.right-column > div{
+  float: right;
+  padding-top: 10px;
+  margin-right: 20px;
+}
+
+.left-title-text{
+  font-size: 14.25px;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  line-height: 19px;
+}
+.left-title-section > a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.right-button-section > button {
+ 
+  background-color: #2a2a2a;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  
+  font-size: 12px;
+  
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+}
+
+.right-button-section > button:hover{
+  background-color: black;
+}
+
+.right-subscribe-section{
+  margin-top: 10px;
 }
