@@ -42,7 +42,7 @@ header {
 }
 
 .left-icons {
-  width: 36%;
+  width: 37%;
 }
 
 .left-title-section {
@@ -83,6 +83,13 @@ header {
   text-decoration: none;
 }
 
+.right-button-section {
+  width: 25%;
+}
+.right-subscribe-section {
+  width: 60%;
+}
+
 .right-button-section > button {
   background-color: #2a2a2a;
   border: none;
@@ -101,7 +108,7 @@ header {
 }
 
 .right-subscribe-section {
-  margin-top: 10px;
+ 
 }
 
 
@@ -479,7 +486,6 @@ footer {
 }
 
 .container-more-links {
- 
   font-size: 11px;
   padding: 20px 10px;
   width: 100%;
@@ -530,15 +536,15 @@ footer {
 }
 
 .subscribe-link {
-  margin-top: 2px;
+
   color: grey;
   display: inline-block;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-transform: capitalize;
-  width: 165px;
-  font-size: 13px;
+  margin-top:2px;
+  font-size: 11px;
   font-weight: 700;
-  height: 25px;
+ 
   line-height: 15px;
   padding-bottom: 0;
   text-decoration: underline;
