@@ -1,8 +1,8 @@
 # NewYork Times Clone
 
-* [The purpouse of this webpage](#The-purpouse-of-this-webpage)
+* [The purpouse of this webpage](#the-purpouse-of-this-webpage)
 * [Built With](#built-with)
-* [Credits](#contact)
+* [Author](#author)
 <br>
 
 # The purpouse of this webpage:
@@ -14,7 +14,11 @@ Basic HTML and CSS
 
 
 
-# Credits
-### https://github.com/Skyrul
-### https://github.com/Psiale
+# Author
+
+👤 **Alexis Sanchez**
+
+- Github: [Alexis Sanchez](https://github.com/Psiale)
+- Twitter: [Alexis Sanchez](https://twitter.com/TFH_)
+- Linkedin: [Alexis Sanchez](https://www.linkedin.com/in/alexis-sanchez-dev/)
 
