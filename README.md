@@ -1,11 +1,11 @@
 # NewYork Times Clone
 
-* [The purpouse of this webpage](#the-purpouse-of-this-webpage)
+* [The purpose of this webpage](#the-purpouse-of-this-webpage)
 * [Built With](#built-with)
 * [Author](#author)
 <br>
 
-# The purpouse of this webpage:
+# The purpose of this webpage:
 to create an static mockup clone of a Newyork times article using only floats. 
 <br>
 
